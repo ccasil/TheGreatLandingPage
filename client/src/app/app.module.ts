@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
 
 import { RobinhoodModule } from './robinhood/robinhood.module';
+import { FirefoxModule } from './firefox/firefox.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { RobinhoodModule } from './robinhood/robinhood.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RobinhoodModule
+    RobinhoodModule,
+    FirefoxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
