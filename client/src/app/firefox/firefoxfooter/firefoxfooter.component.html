@@ -1,32 +1,36 @@
 <div class="container-fluid">
   <div class="section1">
-    <div class="row container text-center">
+    <div class="row no-gutter container mx-auto">
       <div class="col">
-        <img src="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo-md.f0603b4c28b4.png">
+        <img class="box"
+          src="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo-md.f0603b4c28b4.png">
       </div>
       <div class="col">
-        <img src="https://www.mozilla.org/media/protocol/img/logos/firefox/monitor/logo-md.00d2ad45480b.png">
+        <img class="box"
+          src="https://www.mozilla.org/media/protocol/img/logos/firefox/monitor/logo-md.00d2ad45480b.png">
       </div>
       <div class="col">
-        <img src="https://www.mozilla.org/media/protocol/img/logos/firefox/send/logo-md.5b88d5fa8771.png">
+        <img class="box" src="https://www.mozilla.org/media/protocol/img/logos/firefox/send/logo-md.5b88d5fa8771.png">
       </div>
       <div class="col">
-        <img src="https://www.mozilla.org/media/protocol/img/logos/firefox/lockwise/logo-md.b910dd96c5e1.png">
+        <img class="box"
+          src="https://www.mozilla.org/media/protocol/img/logos/firefox/lockwise/logo-md.b910dd96c5e1.png">
       </div>
       <div class="col">
-        <img src="https://www.mozilla.org/media/img/logos/pocket/logo.b38718a07101.svg">
+        <img class="box" src="https://www.mozilla.org/media/img/logos/pocket/logo.b38718a07101.svg">
       </div>
     </div>
     <div class="container text-center">
-      <h2 class="h2 text-white">One login. All your devices. A family of products that respect your privacy.</h2>
+      <h2 class="h2 font-weight-bold footertext">One login. All your devices. A family of products that respect your
+        privacy.</h2>
       <button class="btn btn-primary my-3">Join Firefox</button>
       <p class="small text-white pb-3 m-0">Learn more about joining Firefox</p>
     </div>
   </div>
   <div class="section2">
-    <div class="container">
+    <div class="section2content">
       <div class="row text-white">
-        <div class="col">
+        <div class="col-12 col-md-6 col-lg-2 section2lists">
           <p class="font-weight-bold">
             Firefox
           </p>
@@ -42,7 +46,7 @@
             </li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col-12 col-md-6 col-lg-2 section2lists">
           <p class="font-weight-bold">
             Browsers
           </p>
@@ -61,7 +65,7 @@
             </li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col-12 col-md-6 col-lg-2 section2lists">
           <p class="font-weight-bold">
             Products
           </p>
@@ -83,7 +87,7 @@
             </li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col-12 col-md-6 col-lg-2 section2lists">
           <p class="font-weight-bold">
             Join
           </p>
@@ -99,7 +103,7 @@
             </li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col-12 col-md-6 col-lg-2 section2lists">
           <p class="font-weight-bold">
             Developers
           </p>
@@ -121,49 +125,155 @@
             </li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col-12 col-md-6 col-lg-2 section2lists">
           <p>
             Language
           </p>
           <ul class="list-unstyled">
             <li>
-              <div class="btn-group">
-                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  Languages
-                </button>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">English</a>
-                </div>
-              </div>
+              <select id="page-language-select" class="mzp-js-language-switcher-select" name="lang" dir="ltr">
+
+                <option value="be" lang="be">Беларуская</option>
+
+                <option value="ca" lang="ca">Català</option>
+
+                <option value="cak" lang="cak">Maya Kaqchikel</option>
+
+                <option value="cs" lang="cs">Čeština</option>
+
+                <option value="cy" lang="cy">Cymraeg</option>
+
+                <option value="da" lang="da">Dansk</option>
+
+                <option value="de" lang="de">Deutsch</option>
+
+                <option value="dsb" lang="dsb">Dolnoserbšćina</option>
+
+                <option value="en-CA" lang="en-CA">English (Canadian)</option>
+
+                <option value="en-GB" lang="en-GB">English (British)</option>
+
+                <option value="en-US" selected="" lang="en-US">English</option>
+
+                <option value="es-AR" lang="es-AR">Español (de Argentina)</option>
+
+                <option value="es-CL" lang="es-CL">Español (de Chile)</option>
+
+                <option value="es-ES" lang="es-ES">Español (de España)</option>
+
+                <option value="es-MX" lang="es-MX">Español (de México)</option>
+
+                <option value="eu" lang="eu">Euskara</option>
+
+                <option value="fr" lang="fr">Français</option>
+
+                <option value="fy-NL" lang="fy-NL">Frysk</option>
+
+                <option value="gn" lang="gn">Avañe'ẽ</option>
+
+                <option value="hr" lang="hr">Hrvatski</option>
+
+                <option value="hsb" lang="hsb">Hornjoserbsce</option>
+
+                <option value="hu" lang="hu">magyar</option>
+
+                <option value="ia" lang="ia">Interlingua</option>
+
+                <option value="id" lang="id">Bahasa Indonesia</option>
+
+                <option value="it" lang="it">Italiano</option>
+
+                <option value="ka" lang="ka">ქართული</option>
+
+                <option value="kab" lang="kab">Taqbaylit</option>
+
+                <option value="ko" lang="ko">한국어</option>
+
+                <option value="lt" lang="lt">Lietuvių</option>
+
+                <option value="mr" lang="mr">मराठी</option>
+
+                <option value="my" lang="my">မြန်မာဘာသာ</option>
+
+                <option value="nb-NO" lang="nb-NO">Norsk bokmål</option>
+
+                <option value="nl" lang="nl">Nederlands</option>
+
+                <option value="nn-NO" lang="nn-NO">Norsk nynorsk</option>
+
+                <option value="pl" lang="pl">Polski</option>
+
+                <option value="pt-BR" lang="pt-BR">Português (do&nbsp;Brasil)</option>
+
+                <option value="pt-PT" lang="pt-PT">Português (Europeu)</option>
+
+                <option value="ro" lang="ro">Română</option>
+
+                <option value="ru" lang="ru">Русский</option>
+
+                <option value="sk" lang="sk">slovenčina</option>
+
+                <option value="sl" lang="sl">Slovenščina</option>
+
+                <option value="sq" lang="sq">Shqip</option>
+
+                <option value="sv-SE" lang="sv-SE">Svenska</option>
+
+                <option value="th" lang="th">ไทย</option>
+
+                <option value="tr" lang="tr">Türkçe</option>
+
+                <option value="uk" lang="uk">Українська</option>
+
+                <option value="vi" lang="vi">Tiếng Việt</option>
+
+                <option value="zh-CN" lang="zh-CN">中文 (简体)</option>
+
+                <option value="zh-TW" lang="zh-TW">正體中文 (繁體)</option>
+
+              </select>
+              <button type="submit">Go</button>
             </li>
-            <li>
-              <div class="row">
-                <div class="col">
-                  <img src="">
-                </div>
-                <div class="col">
-                  <img src="">
-                </div>
-                <div class="col">
-                  <img src="">
-                </div>
-              </div>
+          </ul>
+          <ul class="list-unstyled">
+            <li class="mt-3">
+              <img class="mr-3"
+                src="https://www.mozilla.org/media/protocol/img/icons/social/twitter/white.3dbd28e41ea3.svg">
+              <img class="mr-3"
+                src="https://www.mozilla.org/media/protocol/img/icons/social/instagram/white.7ca00b3abbfd.svg">
+              <img class="mr-3"
+                src="https://www.mozilla.org/media/protocol/img/icons/social/youtube/white.0c853775ae15.svg">
             </li>
           </ul>
         </div>
       </div>
-    </div>
-
-    <hr>
-    <div class="container">
+      <hr>
       <div class="row">
-        <div class="col">
-          <img src="https://www.mozilla.org/media/protocol/img/logos/mozilla/white.612a25fa976b.svg">
+        <div class="col-12 col-md-">
+          <img class="mozillalogo"
+            src="https://www.mozilla.org/media/protocol/img/logos/mozilla/white.612a25fa976b.svg">
         </div>
-        <div class="col text-white">
-            <p class="small">Visit Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation. </p>
-            <p class="small">Portions of this content are ©1998–2020 by individual mozilla.org contributors. Content available under a Creative Commons license. </p>
+        <div class="col-12 col-md-6 text-white">
+          <p class="small">Visit Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation. </p>
+          <p class="small">Portions of this content are ©1998–2020 by individual mozilla.org contributors. Content
+            available under a Creative Commons license. </p>
+        </div>
+      </div>
+      <div class="row small">
+        <div class="col">
+          <a class="text-white underline" routerLink="#">mozilla.org</a>
+        </div>
+        <div class="col">
+          <a class="text-white underline" routerLink="#">Privacy</a>
+        </div>
+        <div class="col">
+          <a class="text-white underline" routerLink="#">Website Privacy Notice</a>
+        </div>
+        <div class="col">
+          <a class="text-white underline" routerLink="#">Cookies</a>
+        </div>
+        <div class="col">
+          <a class="text-white underline" routerLink="#">Legal</a>
         </div>
       </div>
     </div>
